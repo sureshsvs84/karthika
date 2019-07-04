@@ -1,0 +1,47 @@
+{
+    "users": [
+    {
+        "id": "1",
+        "name": "Admin",
+        "email": "Admin.m@smnetserv.com",
+        "first_name": "Admin",
+        "last_name": "Tatvam",
+        "display_name": "Tatvam Admin",
+        "auth_type": "FORM",
+        "roles": [],
+        "enabled_reports": [],
+        "enabled_operations": [],
+        "api_access_token": "",
+        "status": "Active"
+    },
+    {
+        "id": "2",
+        "name": "operations",
+        "email": "operations@smnetserv.com",
+        "first_name": "operations",
+        "last_name": "Tatvam",
+        "display_name": "Tatvam Operations",
+        "auth_type": "FORM",
+        "roles": [],
+        "enabled_reports": [],
+        "enabled_operations": [],
+        "api_access_token": "",
+        "status": "Active"
+    },
+    {
+        "id": "2",
+        "name": "Engineering",
+        "email": "Engineering@smnetserv.com",
+        "first_name": "Engineering",
+        "last_name": "Tatvam",
+        "display_name": "Tatvam Engineering",
+        "auth_type": "FORM",
+        "roles": [],
+        "enabled_reports": [],
+        "enabled_operations": [],
+        "api_access_token": "",
+        "status": "Active"
+    }
+]
+
+}

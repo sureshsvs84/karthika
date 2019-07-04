@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Admin",
+    "enabled_operations": [
+      "ClassifierManagementView",
+      "ClassifierManagementEdit",
+      "ClassifierManagementDelete",
+      "ClasssifierManagementReorder",
+      "InAppReviewResponding",
+      "View"
+    ],
+    "enabled_reports": [
+      {
+        "page_id": 2,
+        "page_title": "Home Dashboard"
+      },
+      {
+        "page_id": 3,
+        "page_title": "Most Recent Reviews"
+      },
+      {
+        "page_id": 4,
+        "page_title": "All Reviews"
+      },
+      {
+        "page_id": 5,
+        "page_title": "Source Trend"
+      },
+                  {
+        "page_id": 6,
+        "page_title": "Live Feeds"
+      }
+    ],
+    "status": "Inactive",
+            "created_by": "Test",
+            "created_date": "",
+            "updated_by": "Test",
+            "updated_date": "",
+            "updated_count": "0"
+  },
+  {
+    "name": "User",
+    "enabled_operations": [
+      "InAppReviewResponding"
+    ],
+    "enabled_reports": [
+      {
+        "page_id": 6,
+        "page_title": "Live Feeds"
+      }
+    ],
+    "status": "Inactive",
+    "created_by": "Admin",
+    "created_date": "",
+    "updated_by": "Admin",
+    "updated_date": "",
+    "updated_count": "0"
+  }
+]

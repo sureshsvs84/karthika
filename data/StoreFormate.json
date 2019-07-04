@@ -1,0 +1,50 @@
+{
+  "id": "",
+  "name": "",
+  "parent_customer_id": "",
+  "children": [],
+  "licence_type": "",
+  "industry": "",
+  "category": "",
+  "logo": "",
+  "status": "Active",
+  "sources": [
+    {
+      "id": "",
+      "name": "",
+      "source_type": "",
+      "url": "",
+      "coverage": {
+        "from": "",
+        "upto": ""
+      },
+      "credentials": {
+        "key": "",
+        "token": ""
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "",
+      "name": "nithyarani.m",
+      "email": "nithyarani.m@smnetserv.com",
+      "first_name": "Nithya",
+      "last_name": "Rani",
+      "display_name": "Nithya Rani",
+      "auth_type": "FORM",
+      "roles": [],
+      "enabled_reports": [],
+      "enabled_operations": [],
+      "api_access_token": "",
+      "status": "Active"
+    }
+  ],
+  "competitors": [],
+  "rules": [],
+  "roles": [],
+  "dimensions": [],
+  "alert_rules": [],
+  "subscriptions": [],
+  "surveys": []
+}

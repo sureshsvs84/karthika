@@ -1,0 +1,863 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 4.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+html {
+  font-size: 12px;
+}
+
+
+/* General Overlay */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120vh;
+  background-color: transparent;
+  z-index: 996;
+  will-change: opacity;
+}
+
+/* Left SideNav Open And Clode  */
+.side-nav.slideOut {
+  transform: translateX(0px);
+}
+
+/* Right SideNav Open And Clode  */
+.side-nav.right-navout {
+  transform: translateX(0px);
+  z-index: 1000;
+}
+
+#sidenav-overlay {
+  opacity: 0.5;
+  background-color: black;
+}
+
+#rightSide-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120vh;
+  z-index: 999;
+  will-change: opacity;
+  opacity: 0.5;
+  background-color: black;
+}
+
+/* onClick show showDropDown */
+.showDropDown {
+  white-space: nowrap;
+  opacity: 1;
+  right: 20px;
+  position: absolute;
+  top: 64px;
+  display: block;
+}
+
+#LocationModal {
+  .browser-default {
+    margin-bottom: 24px
+  }
+
+  .modal-footer {
+    display: none !important;
+  }
+}
+
+#AddModal, #EditModal, #DeleteModal, #DeleteRoleModal, #DeleteEnrollmentModal, #DeleteStudyConfig {
+  .modal-footer {
+    display: none !important;
+  }
+
+  width: 35% !important;
+
+  div h4 {
+    font-size: 20px;
+    text-align: center;
+    // text-transform: uppercase;
+  }
+}
+
+#SaveSuccessfullModal {
+  .modal-footer {
+    display: none !important;
+  }
+
+  width: 25% !important;
+}
+
+.modalButton {
+  float: right !important;
+}
+
+#modal_1 {
+  .modal-footer {
+    display: none !important;
+  }
+}
+
+.ag-theme-balham {
+  background-color: transparent !important;
+  color: #000 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 13px !important;
+}
+
+.ag-header-cell-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.ag-theme-balham .ag-row-even,
+.ag-theme-balham .ag-row-odd {
+  background-color: transparent !important;
+}
+
+.tabs .tab {
+  display: inline-block;
+  text-align: center;
+  line-height: 48px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  text-transform: none !important;
+  overflow-x: hidden !important;
+  font-size: 16px;
+
+}
+
+.btn_add {
+  margin-top: 22px;
+}
+
+.create-project-page {
+  width: 80%;
+  margin: auto !important;
+
+  .project-form {
+    padding-bottom: 30px;
+    margin: auto;
+
+    .view-and-edit-mode {
+      padding-top: 35px;
+
+      input {
+        position: relative !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        margin-right: 10px !important;
+      }
+
+      [type="radio"] + label:before,
+      [type="radio"] + label:after {
+        content: none !important;
+      }
+
+      [type="radio"]:not(:checked) + label,
+      [type="radio"]:checked + label {
+        margin-right: 20px !important;
+        padding-left: 0px !important;
+      }
+    }
+  }
+
+  .Add_Location {
+    padding-top: 2px;
+  }
+
+  .tabs-project {
+
+    .tabs .tab a:hover,
+    .tabs .tab a.active {
+      color: #002354;
+    }
+  }
+
+  .form-footer {
+    text-align: right
+  }
+}
+
+.btn_primary {
+  border-radius: 5px !important;
+  height: auto !important;
+  background: #0091EA !important;
+}
+
+.btn_secondary,
+.modal-action {
+  border-radius: 20px !important;
+  background: #004e92;
+  color: white !important;
+  height: 40px !important;
+  text-transform: initial !important;
+}
+
+.btn_primary:hover {
+  background: #40c4ff !important;
+}
+
+.page-footer {
+  // background: linear-gradient(to right, #004e92, #000428) !important;
+  // position: relative;
+  background-color: #fff;
+  z-index: 11;
+  position: relative;
+  // bottom:-12px !important;
+}
+
+#login-page {
+  login-container {
+    width: 35%;
+    margin: auto;
+  }
+
+  .input-field .prefix {
+    padding: 0px !important;
+    padding-top: 10px !important;
+  }
+
+  .submit-container {
+    padding: 10px
+  }
+
+  .remember-user {
+    text-align: right;
+    margin-right: 14px;
+  }
+
+  .login-footer {
+    padding: 4px;
+  }
+}
+
+// .project-form {
+//     #input_0 {
+//         label{
+
+//         }
+//     }
+// }
+
+#tabsProject {
+  .add-copy-role {
+    padding: 2px 58px;
+  }
+
+  .roles-access {
+    padding: 25px 58px;
+  }
+
+  .role-details {
+    height: 210px !important;
+    display: inline-block;
+    overflow: auto;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .tab-cards {
+    margin-bottom: 0 !important;
+  }
+
+  .tab-btn-alignment {
+    margin-top: 25px;
+  }
+
+  // .tabs {
+  //     overflow-x: hidden !important;
+  // }
+  // .tabs {
+  //     position: relative;
+  //     overflow-x: hidden !important;
+  //     overflow-y: hidden;
+  //     height: 48px;
+  //     width: 100%;
+  //     background-color: #fff;
+  //     margin: 0 auto;
+  //     white-space: nowrap;
+  // }
+
+  .role-body {
+    position: relative;
+
+    div {
+      position: absolute;
+      top: 15px;
+      left: 400px;
+    }
+  }
+
+  .tab-lto-dependent {
+    padding: 100px;
+  }
+}
+
+#header {
+  .mpr-logo img {
+    height: 24px;
+  }
+
+  .header-nav {
+    margin-left: 20px;
+
+    a {
+      padding-right: 10px;
+      font-size: 18px;
+
+    }
+  }
+}
+
+.new-card {
+  color: blue !important;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+body {
+  overflow-x: hidden;
+  .custommodal {
+    z-index: 1003;
+    display: block !important;
+    opacity: 1;
+    top: 10%;
+    transform: scaleX(1) scaleY(1);
+  }
+
+  .modal.customModal {
+    overflow-y: auto !important;
+    display: block;
+  }
+
+  .hide {
+    display: none !important;
+  }
+
+  .orgIcon {
+    background-color: transparent;
+    box-shadow: unset;
+    color: #004e92;
+    width: 40px !important;
+
+    &:hover {
+      background-color: transparent;
+      box-shadow: unset;
+      color: #004e92;
+      width: 40px !important;
+    }
+
+    &:focus {
+      background-color: transparent;
+      box-shadow: unset;
+      color: #004e92;
+      width: 40px !important;
+    }
+
+    &:active {
+      background-color: transparent;
+      box-shadow: unset;
+      color: #004e92;
+      width: 40px !important;
+    }
+  }
+
+  .btn.orgIcon {
+    i {
+      font-size: 20px !important;
+    }
+  }
+
+  .popupCopyRole {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1003;
+    display: block !important;
+    opacity: 1;
+    transform: scaleX(1) scaleY(1);
+  }
+
+  .role_select_box {
+    height: 22px;
+  }
+
+  .input-field {
+    padding-right: unset !important;
+    label{
+      font-size: 12px;
+    }
+  }
+
+  .RoledAddDiv {
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    width: 98%;
+    margin-top: 5% !important;
+    margin-bottom: 2% !important;
+  }
+
+  .raConfigAddDiv {
+    box-shadow: 1px 3px 4px 2px #ccc;
+    width: 95%;
+    margin-left: 3% !important;
+    margin-right: 4% !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+  }
+
+  .raconfig {
+    background: #fff;
+    box-shadow: 1px 3px 4px 2px #ccc;
+  }
+
+  .danger-txt {
+    color: red !important;
+  }
+
+  .errorMessage {
+    color: red;
+    font-size: 12px;
+  }
+
+  .orgLabel {
+    position: absolute;
+  }
+
+  .locLabel {
+    position: absolute;
+  }
+
+  .innerLabel {
+    position: absolute;
+    font-size: 15px !important;
+  }
+
+  label {
+    color: gray !important;
+  }
+
+  .innerRolesButton {
+    float: right;
+  }
+
+  .rolesButton {
+    float: right !important;
+  }
+
+  //.MapcheckboxLTo {
+  //  margin-top: 42px;
+  //
+  //  div {
+  //    label.active {
+  //      font-size: 15px !important;
+  //    }
+  //
+  //    label {
+  //      font-size: 15px !important;
+  //    }
+  //  }
+  //
+  //  label.active {
+  //    font-size: 15px !important;
+  //  }
+  //
+  //  label {
+  //    font-size: 15px !important;
+  //  }
+  //}
+
+  label.active {
+    font-size: 12px !important;
+    color: gray !important;
+  }
+
+  .otherButtonAddDetUpt {
+    padding: 10px;
+    padding-top: 0px;
+    height: 35px !important;
+    border-radius: 5px !important;
+    font-size: 12px;
+  }
+
+  .css-1l0glfn {
+    fill: #333 !important;
+  }
+
+  .css-80f7ae {
+    color: #333 !important;
+  }
+
+  .discardDetails {
+    button {
+      float: right;
+      color: #000;
+      background: red;
+      height: 26px;
+      font-size: 12px;
+      padding-right: 1px;
+      padding-left: 1px;
+      border: unset;
+
+      &:hover {
+        float: right;
+        color: #000;
+        background: red;
+        height: 26px;
+        font-size: 12px;
+        padding-right: 1px;
+        padding-left: 1px;
+        border: unset;
+      }
+
+      &:active {
+        float: right;
+        color: #000;
+        background: red;
+        height: 26px;
+        font-size: 12px;
+        padding-right: 1px;
+        padding-left: 1px;
+        border: unset;
+      }
+
+      &:focus {
+        float: right;
+        color: #000;
+        background: red;
+        height: 26px;
+        font-size: 12px;
+        padding-right: 1px;
+        padding-left: 1px;
+        border: unset;
+      }
+    }
+
+    float: right !important;
+  }
+
+  table.role-details {
+    tbody {
+      tr {
+        td {
+          div {
+            label.active {
+              font-size: 15px !important;
+            }
+
+            label {
+              font-size: 15px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #CopyRoleModal {
+    .modal-content {
+      ul {
+        cursor: pointer !important;
+        background-color: unset !important;
+
+        li {
+          padding-left: 19px !important;
+          cursor: pointer !important;
+        }
+      }
+    }
+
+    div h4 {
+      font-size: 20px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  .labelText + label {
+    transform: translateY(-14px) scale(1);
+    transform-origin: 0 0;
+
+  }
+}
+
+.customTabs {
+  li {
+    padding: 15px;
+    background: #f5f5f5;
+  }
+
+  li.react-tabs__tab--selected {
+    background: #004E92;
+    color: #fff;
+  }
+
+  li:hover {
+    background-color: #40c4ff;
+    cursor: pointer;
+    color: #fff;
+  }
+
+}
+
+.menu, .resource {
+  height: auto;
+  overflow-y: auto;
+  position: relative;
+}
+
+.hiddenDeletedRole {
+  display: none;
+}
+
+.Dropdown {
+  cursor: pointer;
+}
+
+.roleDropdown ul li.disabled {
+  display: none;
+}
+
+.roleDropdown ul li:nth-of-type(1) {
+  display: block;
+}
+
+.orgDropdown ul li.disabled {
+  display: none;
+}
+
+.orgDropdown ul li:nth-of-type(1) {
+  display: block;
+}
+
+.modal {
+  overflow-y: inherit !important;
+}
+
+div table tr td {
+  padding: 3px 5px;
+}
+
+// .container{ max-width: 97% !important; }
+.functions {
+  label.active {
+    font-size: 15px !important;
+  }
+  label {
+    font-size: 15px !important;
+  }
+
+}
+
+.deleteBtn {
+  background-color: #800000;
+}
+
+.deleteBtn:hover {
+  background-color: #9c0707;
+}
+
+.btn.btn_primary.otherButtonAddDetUpt.copyrole {
+  background: transparent !important;
+  border: unset !important;
+  box-shadow: unset !important;
+  color: black;
+}
+
+.ag-body-horizontal-scroll-viewport {
+  overflow-x: hidden !important;
+}
+
+.enrollViewGrid {
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+}
+
+.btn.btn_primary.otherButtonAddDetUpt.copyrole i.material-icons {
+  vertical-align: top;
+  color: #004e92;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.pointer {
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.modal_close {
+  border: none;
+  background: none;
+  z-index: 100000;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+}
+
+.modal.modal-fixed-footer.dynamicModal .modal-content {
+  position: unset !important;
+}
+
+.modal-content.dataControl {
+  overflow-y: auto;
+  height: 400px;
+}
+
+.modal.modal-fixed-footer.dynamicModal .modal-footer {
+  height: 21px;
+}
+
+.modal.modal-fixed-footer.dynamicModal .modal-content h4 {
+  margin-bottom: unset !important;
+}
+
+i.material-icons.prefix {
+  margin-top: 3%;
+}
+
+.tabs {
+  .indicator {
+    display: none;
+  }
+  .tab{
+    font-size: 14px;
+  }
+}
+
+.customer-inactive {
+  border-bottom: #ab0101 5px solid;
+}
+
+.customer-active {
+  border-bottom: green 5px solid;
+}
+
+#main {
+  min-height: 78vh;
+}
+
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.navSize {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
+  background: #7db9e8; /* Old browsers */
+  background: -moz-linear-gradient(top, #7db9e8 0%, #1e5799 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7db9e8 0%, #1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7db9e8 0%, #1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db9e8', endColorstr='#1e5799', GradientType=0); /* IE6-9 */
+  top: 8.5%;
+  transform: translateX(0);
+  position: fixed;
+  height: 85.25vh;
+  color: #fff;
+}
+
+.card-container {
+  margin: 0 !important;
+}
+
+.appView {
+  margin-left: 5.33% !important;
+}
+
+th {
+  color: #3e3e3e;
+}
+
+.table-style {
+  border-radius: 10px;
+
+}
+
+// SWITCH
+.switch label .lever:after {
+  background-color: rgb(255, 72, 72);
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+  background-color: green
+}
+
+//Select 
+.caret {
+  position: relative;
+  right: 20px;
+}
+
+.multiple-select-dropdown {
+  li {
+    label {
+      position: relative;
+    }
+  }
+}
+
+.flex-colum {
+  flex-direction: column;
+}
+//
+//.roleGrid {
+//  padding: 0 30px !important;
+//}
+
+.customTabs li.react-tabs__tab--selected {
+  background-color: #0091EA;
+}
+
+
+.select-wrapper{
+  label{
+    font-size: 14px;
+  }
+}
+.input-field .active {
+  -webkit-transform: translateY(-14px) scale(1);
+  -moz-transform: translateY(-14px) scale(1);
+  -ms-transform: translateY(-14px) scale(1);
+  -o-transform: translateY(-14px) scale(1);
+  transform: translateY(-14px) scale(1);
+}

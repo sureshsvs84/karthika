@@ -1,0 +1,32 @@
+.react-select__control {
+  border: none !important;
+  border-bottom: 1px solid #9e9e9e !important;
+  border-radius: 0 !important;
+  input[type=text]:not(.browser-default) {
+    margin: 0 !important
+  }
+}
+
+.react-select__control--is-focused {
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid #9e9e9e !important;
+}
+
+.react-select__dropdown-indicator {
+  padding: 0 !important;
+
+}
+
+.react-select__indicator-separator {
+  display: none
+}
+
+.validation_error_text {
+  font-size: 14px;
+  color: orangered;
+  margin: 0;
+  position: relative;
+  top: -1rem;
+}

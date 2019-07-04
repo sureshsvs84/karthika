@@ -1,0 +1,70 @@
+/* putting in !important so it overrides the theme's styling as it hovers the row also */
+/* .ag-row-hover {    
+    background-color: #eea60c !important;
+} */
+
+/* .ag-column-hover {
+    background-color: #dfffdf;
+} */
+.ag-row:nth-child(even) {
+    background-color: #f9f9f9;
+    color: rgba(0, 0, 0, 0.87);;
+}
+
+.ag-row:nth-child(odd) {
+    background-color: #F2F2F2;
+    color: rgba(0, 0, 0, 0.87);;
+}
+
+.ag-header-row {
+    background-color: #f9f9f9;
+    color: #3e3e3e;
+    border-bottom: 1px solid #d0d0d0;
+}
+.ag-cell{
+    font-size: 12px;
+}
+
+.ag-header {
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.ag-header-cell-text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ag-theme-material .ag-row {
+    border: none;
+}
+
+/* .ag-header-cell:hover {
+    background-color: red;
+} */
+
+.ag-root-wrapper {
+    /* border: none;
+    border-radius: 15px; */
+    /*box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3)*/
+}
+
+.ag-cell-focus,
+.ag-cell-no-focus {
+    border: none !important;
+}
+
+.editColumn {
+    cursor: pointer;
+
+}
+.editColumn .material-icons{
+    font-size: 18px;
+}
+
+.deleteColumn .material-icons{
+    font-size: 18px;
+}
+
+.deleteColumn {
+    cursor: pointer;
+}

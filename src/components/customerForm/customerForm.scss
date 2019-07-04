@@ -1,0 +1,46 @@
+.image-upload {
+  width: 100px;
+  height: 100px;
+  border: #5a5959 1.25px dashed;
+  float: left;
+  border-radius: 15px;
+  background: #c3c3c3;
+  margin-right: 40px;
+  &:after {
+    content: "+";
+    font-size: 25px;
+    font-weight: 500;
+    color: #2b2b2b;
+
+  }
+}
+
+.image-uploaded {
+  // border:none;
+  // display:flex;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+  max-width: 100%;
+  border: #c1bbbb .5px solid;
+  border-radius: 10px;
+  padding: 2px;
+  box-shadow: 1px 2px 7px #00000054;
+}
+
+.logo_edit {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.66);
+  text-align: center;
+  font-size: 15px;
+  color: #efefef;
+  padding: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 90px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 3px;
+}
